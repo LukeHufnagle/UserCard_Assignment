@@ -1,0 +1,75 @@
+* {
+    font-family: cursive;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.wrapper{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+
+.tealBox{
+    width: 600px;
+    height: 100px;
+    background-color: teal;
+    position: absolute;
+    border-radius: 5px;
+}
+
+img.icon{
+    width: 80px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.name{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+.location{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 40px;
+}
+
+.pin{
+    width: 15px;
+    height: 20px;
+}
+
+.city{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+.bottomText{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.url{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    top: 330px;
+    left: 40px;
+}
+
+img.gear{
+    width: 20px;
+    height: 20px;
+}
